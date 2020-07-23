@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchpad Vanilla JS</title>
+    <link rel="stylesheet" href="sketchpad.css" type="text/css"/>
+</head>
+<body>
+
+    <button onclick="createCanvas()">Create Canvas</button>
+    <button onclick="exit()">Delete Canvas</button>
+    <button onclick="cizim()">Clean Canvas</button>
+    <button onclick="pen()">Pen Mode</button>
+    <button onclick="eraser()">Eraser Mode</button>
+    <button onclick="changeColor(red)">Color: Red</button>
+    <button onclick="changeColor(darkred)">Color: DarkRed</button>
+    <button onclick="changeColor(yellow)">Color: Yellow</button>
+    <button onclick="changeColor(yellowhighlight)">Color: Yellowhighlight</button>
+    <button onclick="changeColor(green)">Color: Green</button>
+    <button onclick="changeColor(black)">Color: Black</button>
+    <button onclick="changeColor(orange)">Color: Orange</button>
+    <button onclick="changeColor(blue)">Color: Blue</button>
+    <input id="thickness"  value="7" max="40" min="1" type="range" onchange="thickness=value">
+    <script src="sketchpad.js"></script> 
+</body>
+</html>
